@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_yellow">false</bool>
+    <integer name="default_brightness">50</integer>
+    <bool name="on">true</bool>
+</resources>

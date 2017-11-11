@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lampii.brightminds.lampii.MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/yellowButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/circ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button2"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:id="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/decrease"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/decrease"/>
+
+        <Button
+            android:id="@+id/increase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/increase"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:id="@+id/progBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:background="#FFFFFF"
+        android:foregroundTint="#000000"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:progress="50"
+        android:layout_marginBottom="47dp" />
+
+    <RadioButton
+        android:id="@+id/yellowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yellow"
+        android:checked="false"
+        android:layout_above="@+id/progBar"
+        android:layout_alignRight="@+id/progBar"
+        android:layout_alignEnd="@+id/progBar" />
+
+    <RadioButton
+        android:id="@+id/whiteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/white"
+        android:checked="false"
+        android:layout_above="@+id/progBar"
+        android:layout_alignLeft="@+id/progBar"
+        android:layout_alignStart="@+id/progBar" />
+
+
+</RelativeLayout>

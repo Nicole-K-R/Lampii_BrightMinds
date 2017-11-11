@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current_yellow">current_yellow</string>
+    <string name="current_on">current_on</string>
+    <string name="current_intensity">current_intensity</string>
+</resources>

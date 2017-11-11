@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lampii</string>
+    <string name="increase">increase</string>
+    <string name="decrease">decrease</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
+</resources>
