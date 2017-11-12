@@ -1,2 +1,2 @@
 # Lampii_BrightMinds
-Repository for our smart lamp at HackPrinceton
+Repository for our IoT smart lamp at HackPrinceton
