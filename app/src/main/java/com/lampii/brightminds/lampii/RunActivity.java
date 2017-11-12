@@ -2,6 +2,7 @@ package com.lampii.brightminds.lampii;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -91,5 +92,10 @@ public class RunActivity extends Activity{
         onOff.setText(onB? getString(R.string.on) : getString(R.string.off));
         circle.setVisibility(onB? View.VISIBLE: View.GONE);
         mDefaultPreferences.edit().putBoolean(getString(R.string.current_on), onB).apply();
+    }
+
+    @OnClick(R.id.button3)
+    public void btSelected(View view){
+        this.startActivity(new Intent(this, LaunchActivity.class));
     }
 }
